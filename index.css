@@ -1,0 +1,243 @@
+body {
+    height: 0%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ecf0f1;
+}
+
+.mostafa {
+    background-image: url(img2/photo_2023-04-05_20-32-57.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.ba{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.Abb{
+    --bs-gutter-y: 0;
+    --bs-gutter-x: 0;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.fatma {
+    color: #aaa69d;
+} 
+.RRR{
+    background-color:rgb(170, 232, 248);
+}
+
+@media (min-width:1200px) {
+
+
+
+    .omar {
+
+        width: 25% !important;
+        /* margin: 4px !important; */
+    }
+}
+
+@media (max-width:997px) {
+
+
+    .omar {
+
+        width: 50% !important;
+        /* margin: 4px !important; */
+    }
+}
+
+@media (max-width:767px) {
+
+    .row {
+
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+
+    .omar {
+
+        width: 100% !important;
+    }
+}
+
+/* تواصل معنا  */
+
+
+.sora1 {
+    background-image: url(img2/photo_2023-04-05_20-32-57.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+}
+
+.layre {
+    background-color: rgba(0, 0, 0, 0.554);
+}
+
+
+.copy {
+    height: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+.eng::after {
+    content: "  |";
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "  |";
+    }
+
+    3% {
+        content: "م|";
+    }
+
+    6% {
+        content: " مش |";
+    }
+
+    9% {
+        content: " مشك |";
+    }
+
+    12% {
+        content: "مشكل  |";
+    }
+
+    15% {
+        content: "مشكلة |";
+    }
+    18% {
+        content: " مشكلة ت |";
+    }
+
+    21% {
+        content: "مشكلة تو  |";
+    }
+
+    24% {
+        content: "مشكلة توا  |";
+    }
+
+    27% {
+        content: " مشكلة تواص |";
+    }
+
+    30% {
+        content: " مشكلة تواصل |";
+    }
+
+    33% {
+        content: "مشكلة تواصل م  |";
+    }
+
+    36% {
+        content: "مشكلة تواصل مع |";
+    }
+
+    36% {
+        content: "مشكلة تواصل معن |";
+    }
+
+    39% {
+        content: "مشكلة تواصل معنا  |";
+    }
+    42% {
+        content: "مشكلة تواصل معنا  |";
+    } 
+    45% {
+        content: "مشكلة تواصل معنا  |";
+    }
+
+    48% {
+        content: "مشكلة تواصل معن |";
+    }
+
+    51% {
+        content: "مشكلة تواصل مع |";
+    }
+
+    54% {
+        content: "مشكلة تواصل م  |";
+    }
+
+    57% {
+        content: " مشكلة تواصل |";
+    }
+
+    60% {
+        content: " مشكلة تواص |";
+    }
+
+    63% {
+        content: "مشكلة توا  |";
+    }
+
+    66% {
+        content: "مشكلة تو  |";
+    }
+
+    69% {
+        content: " مشكلة ت |";
+    }
+
+    72% {
+        content: " مشكلة |";
+    }
+
+    75% {
+        content:"مشكل |";
+    }
+
+    78% {
+        content: "مش |";
+    }
+    81% {
+        content: "م |";
+    }
+    85% {
+        content: " |";
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    .zanty {
+        width: 100%;
+    }
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #3a3939;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
